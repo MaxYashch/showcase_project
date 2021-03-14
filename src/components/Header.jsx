@@ -6,9 +6,9 @@ function Header() {
                     React Shop
                 </a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li>
+                    {/* <li>
                         <a href="#">Repo</a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </nav>
