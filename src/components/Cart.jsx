@@ -5,7 +5,7 @@ function Cart(props) {
             className="cart green accent-3 white-text"
             onClick={handleBasketShow}
         >
-            <i class="material-icons">shopping_cart</i>
+            <i className="material-icons">shopping_cart</i>
             {quantity ? (
                 <span className="cart-quantity">{quantity}</span>
             ) : null}

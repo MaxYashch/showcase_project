@@ -17,4 +17,4 @@ export default App;
 
 // cd /d/EPAM/REACT_PROGECTS/showcase_project/
 
-// npm start
+// npm start      git add -A          git commit -m '      git push

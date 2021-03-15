@@ -12,14 +12,14 @@ function BasketItem(props) {
         <li className="collection-item">
             {name}{" "}
             <i
-                class="material-icons basket-quantity"
+                className="material-icons basket-quantity"
                 onClick={() => decreaseQuantity(id)}
             >
                 remove
             </i>{" "}
             x {quantity}
             <i
-                class="material-icons basket-quantity"
+                className="material-icons basket-quantity"
                 onClick={() => increaseQuantity(id)}
             >
                 add
@@ -27,10 +27,10 @@ function BasketItem(props) {
             = {price * quantity} руб.
             <span
                 href="#!"
-                class="secondary-content"
+                className="secondary-content"
                 onClick={() => removeFromBasket(id)}
             >
-                <i class="material-icons basket-delete">close</i>
+                <i className="material-icons basket-delete">close</i>
             </span>
         </li>
     );
