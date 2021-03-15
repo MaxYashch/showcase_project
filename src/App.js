@@ -14,3 +14,7 @@ function App() {
 }
 
 export default App;
+
+// cd /d/EPAM/REACT_PROGECTS/showcase_project/
+
+// npm start
