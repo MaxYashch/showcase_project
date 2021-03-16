@@ -40,8 +40,8 @@ function Shop() {
         setAlertName(item.name);
     };
 
-    const removeFromBasket = (itemID) => {
-        const newOrder = order.filter((el) => el.id !== itemID);
+    const removeFromBasket = (itemId) => {
+        const newOrder = order.filter((el) => el.id !== itemId);
         setOrder(newOrder);
     };
 
